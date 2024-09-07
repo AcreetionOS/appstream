@@ -1,0 +1,1 @@
+git remote remove upstream && git remote add upstream https://github.com/ximion/appstream.git && git pull upstream main && git remote remove upstream && git remote add upstream https://gitlab.com/acreetionos-developers1/appstream.git && git add . && git commit -m "Updated to the latest version of Appstream" && git push
